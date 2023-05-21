@@ -1,0 +1,39 @@
+{
+    "real_system" : {
+        "HVAC":{
+            "IP" : "172.26.12.106",
+            "tx_port" : 25000,
+            "rx_port" : 25003
+        },
+        "HP":{
+            "IP" : "172.26.12.136",
+            "tx_port" : 25000,
+            "rx_port" : 25004
+        }
+    },
+
+    "twin_controller" : {
+        "HVAC":{
+            "IP" : "localhost",
+            "tx_port" : 3003,
+            "rx_port" : 5005
+        },
+        "HP":{
+            "IP" : "localhost",
+            "tx_port" : 3004,
+            "rx_port" : 5006
+        }
+    },
+    "twin_simulator" : {
+        "HVAC":{
+            "IP" : "localhost",
+            "tx_port" : 5005,
+            "rx_port" : 3003
+        },
+        "HP":{
+            "IP" : "localhost",
+            "tx_port" : 5006,
+            "rx_port" : 3004
+        }
+    }
+}
